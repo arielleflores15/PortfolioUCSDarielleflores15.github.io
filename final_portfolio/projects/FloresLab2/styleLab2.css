@@ -1,0 +1,48 @@
+table, th, td {
+    border: 1px solid;
+}
+td{
+   display: table-cell; 
+   vertical-align:text-bottom;
+   text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+caption{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+thead th{
+    padding: 10px;
+    text-align: left;
+    background-color: hotpink;
+    color: lightgreen;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+tbody {
+    background-color: lightyellow;
+    padding: 50px;
+}
+a:link{
+    color: coral;
+}
+a:visited{
+    color: dodgerblue;
+}
+a:active{
+    color: seagreen;
+}
+td:nth-child(1) {
+font-weight: bold;
+}
+dt {
+font-weight: bold;
+}
+td:nth-child(1) {
+    background-color: lavender;
+}
+td{
+    color: darkblue;
+}

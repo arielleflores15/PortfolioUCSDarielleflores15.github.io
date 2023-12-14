@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(167, 215, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container-fluid {
+    background-color: rgb(255, 255, 255);
+    padding: 3% 15%;
+}
+ h1 {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+h2 {
+    color: rgb(4, 3, 3);
+    font-weight: 200;
+}
+h3 {
+    text-align: center;
+    font-weight: 100;
+}
+h4 {
+    text-align: center;
+    padding: 3% 15%;
+    font-size: larger;
+}
+h5 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    background-color: rgb(167, 215, 243);
+    border-radius: 600%;
+}
+h6 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+.goals-header {
+    padding: 3% 15%;
+}
+.navbar {
+    padding: 3% 2%;
+    background-color: rgb(167, 215, 243);
+}
+
+.navbar-brand {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.nav-item {
+    padding:0 60px;
+}
+
+.nav-link {
+    font-weight: 'Playfair Display', sans-serif;
+    font-size: 1.2rem;
+}
+.goals-header {
+    text-align: center;
+}
+.card {
+    background-color: rgb(221, 230, 239);
+}
+.card-header {
+    background-color: rgb(247, 239, 239);
+}
+.card-link {
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding: 3% 30%;
+}
+.goals-column {
+    padding: 3% 2%;
+}
+ /* Carousel image sizes */
+ #hobbyCarousel .carousel-item img {
+    width: 100%; /* responsive width */
+    height: 500px; /* keep the height fixed height */
+    object-fit: cover; /* don't want the image to be distorted */
+}
+#footer {
+    text-align: center;
+}

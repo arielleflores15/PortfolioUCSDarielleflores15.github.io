@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schedule for Arielle-Arf003-Fall,2023</title>
+        <link rel="stylesheet" href="styleLab2.css">
+    </head>
+    <body>
+        <dl>
+            <dt>What is a table?</dt>
+            <dd>A table is data formulated into Rows and Columns</dd>
+            <dt>When to use &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;thead&gt;, &lt;tfoot&gt;, and &lt;caption&gt;</dt>
+            <dd>
+                <dd>&lt;tr&gt; is used to define to a table row</dd>
+                <dd>&lt;th&gt; is used to define a header cell</dd>
+                <dd>&lt;td&gt; is used when define to a table cell</dd>
+                <dd>&lt;thead&gt; is used group header content in a table</dd> 
+                <dd>&lt;tfoot&gt; is used group footer content in a table</dd> 
+                <dd>&lt;caption&gt; is used to define a table caption</dd>
+
+            </dd>
+            <dt>What is the difference between colspan and rowspan?</dt>
+            <dd>Colspan will span cells across specific columns and Rowspan will span cells across specific rows</dd>
+            <dt>What is the difference between cells spacing and padding?</dt>
+            <dd>Cell padding is the spacing between the edges and the data, while cell spacing is only the space between the cells</dd>
+            <dt>How to define table borders using CSS</dt>
+            <dd>In CSS to define table borders you would use the border property</dd>
+            <dt>How to control border widths using CSS</dt>
+            <dd>In CSS to control border widths you would use the border-width property</dd>  
+        </dl>
+        <table border="1">
+            <caption>Arielle Flores' Weekly Schedule</caption>
+            <thead>
+                <tr>
+                    <!--heading-->
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday & Sunday</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>9am</td>
+                <td colspan="5">Wake Up        <img src="images/L2pAimg1.jpeg" width="100px"></td>
+                <td rowspan="3">Wake Up and Lay in Bed</td>
+            </tr>
+            <tr>
+                <td>10am</td>
+                <td rowspan="2"><a href="https://catalog.ucsd.edu/courses/MATH.html">Math Lecture</a></td>
+                <td rowspan="2">Get ready for day</td>
+                <td rowspan="2"><a href="https://catalog.ucsd.edu/courses/MATH.html">Math Lecture</a></td>
+                <td rowspan="2">Get ready for day</td>
+                <td rowspan="2"><a href="https://catalog.ucsd.edu/courses/MATH.html">Math Lecture</a></td>
+            </tr>
+            <tr><td>11am</td>
+            <tr>
+                <td>12pm</td>
+                <td rowspan="3">Homework<img src="images/L2pAimg4.jpeg" width="130px"></td>
+                <td rowspan="2"><a href="https://sixth.ucsd.edu/cat/courses/cat-1.html">CAT 1 Lecture</a></td>
+                <td rowspan="5">Work<img src="images/L2pAimg5.jpeg" width="100px"></td>
+                <td rowspan="2"><a href="https://sixth.ucsd.edu/cat/courses/cat-1.html">CAT 1 Lecture</a></td>
+                <td rowspan="2">Eat Lunch</td>
+                <td rowspan="4">Get Ready for Day & Homework</td>
+            </tr>
+            <tr>
+                <td>1pm</td>
+            </tr>
+            <tr>
+                <td>2pm</td>
+                <td rowspan="2"><a href="https://pages.ucsd.edu/~mboyle/COGS3/demos/">COGS 3 Lecture</a></a></td>
+                <td rowspan="2"><a href="https://pages.ucsd.edu/~mboyle/COGS3/demos/">COGS 3 Lecture</a></td>
+                <td rowspan="4">Nap<img src="images/L2pAimg6.jpeg" width="130px"></td>
+            </tr>
+            <tr>
+                <td>3pm</td>
+                <td>Nap</td>
+            </tr>
+            <tr>
+                <td>4pm</td>
+                <td rowspan="4">Work       <img src="images/L2pAimg5.jpeg" width="150"></td>
+                <td rowspan="2">Rest</td>
+                <td rowspan="2">Rest</td>
+                <td rowspan="4">Relax and Visit Family </td>
+            </tr>
+            <tr>
+                <td>5pm</td>
+                <td rowspan="2">Chem Discussion</td>
+            </tr>
+            <tr>
+                <td>6pm</td>
+                <td rowspan="2">Eat Dinner</td>
+                <td>Call parents</td>
+                <td rowspan="2">Study and Take Chem Quiz<img src="images/L2pAimg1.jpeg" width="130px"></td>
+            </tr>
+            <tr>
+                <td>7pm</td>
+                <td rowspan="2">Math Discussion</td>
+                <td rowspan="2">Eat Dinner & Shower</td>
+            </tr>
+            <tr>
+                <td>8pm</td>
+                <td>Lay in Bed   <img src="images/L2pAimg2.jpeg" width="110px"></td>
+                <td>Work on Homework</td>
+                <td colspan="2">Hang Out With Suitemates<img src="images/L2pAimg7.jpeg" width="120"></td>
+            </tr>
+        </table>
+    </body>
+</html>
